@@ -1,0 +1,31 @@
+https://retoolapi.dev/lp8lgH/expo
+
+See all available endpoints here (generated with json-server).
+
+Endpoint URL
+
+HTTP method endpoints
+
+GET
+/lp8lgH/expo
+
+GET filter
+/lp8lgH/expo?nombre=value
+
+GET by id
+/lp8lgH/expo/1
+
+GET paginate
+/lp8lgH/expo?_page=2&_limit=10
+
+POST
+/lp8lgH/expo
+
+PUT
+/lp8lgH/expo/1
+
+PATCH
+/lp8lgH/expo/1
+
+DELETE
+/lp8lgH/expo/1
