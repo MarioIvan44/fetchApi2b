@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Gestión de equipo expo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -42,10 +43,12 @@
                 <!--Aquí van los registros de la base que vienen a través de la API-->
             </tbody>
         </table>
-
-        
     </main>
 
+    <!--Botón flotante para agregar registros-->
+    <button class="add-button" id="btnAbrirModal" title="Agregar Integrante">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-plus-icon lucide-user-round-plus"><path d="M2 21a8 8 0 0 1 13.292-6"/><circle cx="10" cy="8" r="5"/><path d="M19 16v6"/><path d="M22 19h-6"/></svg>
+    </button>
     <script src="js/script.js"></script>
 </body>
 </html>

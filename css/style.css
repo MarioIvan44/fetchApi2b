@@ -1,0 +1,30 @@
+.add-button{
+    background-color: salmon; /*Color de fondo del botón*/
+
+    position: fixed; /* El botón queda encima del contenido, flotante*/
+
+    bottom: 30px; /*Separación del botón del borde inferior*/
+
+    right: 35px; /*Separación desde la derecha*/
+
+    border: none; /* Para que el botón no tenga bordes */
+
+    border-radius: 50%; /* Para hacer que el botón quede redondo*/
+
+    width: 70px;
+    height: 70px; /*Para que el botón quede simétrica*/
+
+    display: flex; /*Activamos flexbox para centrar*/
+    justify-content: center; /*Alineación horizontal*/
+    align-items: center; /*Alineación vertical*/
+
+    box-shadow: 0 4px 10px rgba(176, 170, 255, 0.767); /*Sombra del botón*/
+
+    z-index: 1001; /*Para que el botón siempre quede encima de todo*/
+
+    transition: transform 0.4s;
+}
+
+.add-button:hover{
+    transform: scale(1.1);
+}
