@@ -42,6 +42,7 @@
                 </thead>
                 <tbody>
                     <!--Aquí van los registros de la base que vienen a través de la API-->
+
                 </tbody>
             </table>
         </div>
@@ -59,6 +60,25 @@
                 <input type="text" id="apellido" placeholder="Apellido" required>
                 <input type="number" placeholder="Edad" id="edad" required>
                 <input type="email" id="email" placeholder="Correo electrónico" required>
+                <button type="submit" class="contrast">Guardar</button>
+            </form>
+        </article>
+    </dialog>
+
+    <!--Modal para editar registros 🤑-->
+    <dialog id="modalEditar">
+        <article>
+            <header>
+                <a href="#" class="close" id="btnCerrarEditar"></a>
+                <h3>Editar información de integrante</h3>
+            </header>
+
+            <form id="frmEditarIntegrante">
+                <input type="hidden" id="idEditar">
+                <input type="text" id="nombreEditar" placeholder="Nombre" required>
+                <input type="text" id="apellidoEditar" placeholder="Apellido" required>
+                <input type="number" placeholder="Edad" id="edadEditar" required>
+                <input type="email" id="emailEditar" placeholder="Correo electrónico" required>
                 <button type="submit" class="contrast">Guardar</button>
             </form>
         </article>
